@@ -1,199 +1,196 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.center{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2%;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    text-transform: initial;
+.center {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-transform: initial;
 }
 
-.menu-mobile{
-    display: none;
-
+.menu-mobile {
+  display: none;
 }
-header{
-    background-color: white;
-    padding: 20px 0;
-    border-bottom: 2px solid rgb(200, 200, 200);
+header {
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 2px solid rgb(200, 200, 200);
 }
-.logo{
-    color: #16507b;
+.logo {
+  color: #16507b;
 }
-.logo h2{
-    font-size: 20px;
+.logo h2 {
+  font-size: 20px;
 }
-.menu{
-    width: 88%;
-    text-align: right;
+.menu {
+  width: 88%;
+  text-align: right;
 }
-.menu a{
-    color: #124265;
-    font-size: 14px;
-    text-decoration: none;
-    margin-right: 20px;
-    /* margim right para os links nao ficarem grudados */
-    transition: 0.8s;
-
+.menu a {
+  color: #124265;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 20px;
+  /* margim right para os links nao ficarem grudados */
+  transition: 0.8s;
 }
-.menu a:hover{
-    color:#007bff;
+.menu a:hover {
+  color: #007bff;
 }
-.menu .btn-menu{
-    background-color: #007bff;
-    display: inline-block;
-    padding: 11px 26px;
-    color: white;
-    border-radius: 7px;
+.menu .btn-menu {
+  background-color: #007bff;
+  display: inline-block;
+  padding: 11px 26px;
+  color: white;
+  border-radius: 7px;
 }
-.menu .btn-menu:hover{
-    background-color: #124265;
-    color: white;
+.menu .btn-menu:hover {
+  background-color: #124265;
+  color: white;
 }
 /* 
 section main
 */
-section.main{
-    background-image: url(../img/bg1.jpg);
-    padding: 70px 0;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+section.main {
+  background-image: url(../img/bg1.jpg);
+  padding: 70px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.main-cta{
-    width: 100%;
-    margin: 60px 0;
-    text-align: center;
+.main-cta {
+  width: 100%;
+  margin: 60px 0;
+  text-align: center;
 }
-.main-cta button{
-    color: #124265;
-    font-size: 14px;
-    text-decoration: none;
-    transition: 0.8s;
+.main-cta button {
+  color: #124265;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.8s;
 }
-.main-cta button:hover{
-    background-color: #124265;
-    color: white;
+.main-cta button:hover {
+  background-color: #124265;
+  color: white;
 }
-.main-cta h2{
-    color: #16507b;
-    font-size: 40px;
-    align-items: center;
+.main-cta h2 {
+  color: #16507b;
+  font-size: 40px;
+  align-items: center;
 }
-.main-cta p{
-    color: gray;
-    font-size: 19px;
-    margin: 10px 0;
+.main-cta p {
+  color: gray;
+  font-size: 19px;
+  margin: 10px 0;
 }
-.main-cta button{
-    background-color: #007bff;
-    display: inline-block;
-    padding: 11px 25px;
-    color: white;
-    border-radius: 6px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+.main-cta button {
+  background-color: #007bff;
+  display: inline-block;
+  padding: 11px 25px;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-.diferenciais{
-    display: flex;
-    flex-wrap: wrap;
+.diferenciais {
+  display: flex;
+  flex-wrap: wrap;
 }
-.diferencial-single{
-    border-radius: 10px;
-    background-color: rgba(248, 248, 248, 0.1);
-    width: 23%;
-    margin-right: 2%;
-    /* 4 blocos divido 100 dará 25,
+.diferencial-single {
+  border-radius: 10px;
+  background-color: rgba(248, 248, 248, 0.1);
+  width: 23%;
+  margin-right: 2%;
+  /* 4 blocos divido 100 dará 25,
         então, coloremos 24% de largura para entao por 1% de margin-right.
         poderiamos usar uma propriedade que calculca: width: calc(100% / 4);
     */
-    padding: 50px 20px;
-    width: calc(3 /4);
+  padding: 50px 20px;
+  width: calc(3 / 4);
 }
-.diferencial-single i{
-    color: #124265;
-    font-size: 23px;
+.diferencial-single i {
+  color: #124265;
+  font-size: 23px;
 }
-.diferencial-single h2{
-    color: #124265;
-    margin: 10px 0;
-    font-size: 17px;
+.diferencial-single h2 {
+  color: #124265;
+  margin: 10px 0;
+  font-size: 17px;
 }
-.diferencial-single p{
-    color: grey;
-    font-size:14px;
-    line-height: 30px;
+.diferencial-single p {
+  color: grey;
+  font-size: 14px;
+  line-height: 30px;
 }
-section.sobre{
-    padding: 80px 0;
-    width: 100%;
-    text-align: center;
-    text-decoration: dotted;
+section.sobre {
+  padding: 80px 0;
+  width: 100%;
+  text-align: center;
+  text-decoration: dotted;
 }
-.chamada-sobre h2{
-    color: #124265;
-    text-transform: uppercase;
+.chamada-sobre h2 {
+  color: #124265;
+  text-transform: uppercase;
 }
-.chamada-sobre p{
-    font-size: 14px;
-    color: gray;
-    margin:10px 0;
-    text-align: initial;
+.chamada-sobre p {
+  font-size: 14px;
+  color: gray;
+  margin: 10px 0;
+  text-align: initial;
 }
-.conteudo-sobre{
-    display:flex;
-    flex-wrap: wrap;
+.conteudo-sobre {
+  display: flex;
+  flex-wrap: wrap;
 }
-.conteudo-sobre p{
-    margin:48%;
-    margin-right: 2%;
-    color: #444444;
+.conteudo-sobre p {
+  margin: 48%;
+  margin-right: 2%;
+  color: #444444;
 }
-.conteudo-sobre span{
-    display: inline-block;
-    width: 100%;
-    margin-top: 10px;
+.conteudo-sobre span {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
 }
-.conteudo-sobre i{
-    color: #007bff;
-
+.conteudo-sobre i {
+  color: #007bff;
 }
 
 /* responsividade */
-@media screen and (max-width: 768px){
-    .diferencial-single{
-        width:100%;
-        margin-bottom: 20px;
-    }
-    .menu{
-        display: none;
-    }
-    .logo{
-        width: 20%;
-    }
-    .menu-mobile{
-        display: block;
-        text-align: right;
-        width: 80%;
-    }
-    .menu-mobile i{
-        cursor: pointer;
-        font-size: 23px;
-        margin-top: 8px;
-    }
-    .conteudo-sobre p{
-        width: 100%;
-        margin: 20px 20px;
-    }
+@media screen and (max-width: 768px) {
+  .diferencial-single {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .menu {
+    display: none;
+  }
+  .logo {
+    width: 20%;
+  }
+  .menu-mobile {
+    display: block;
+    text-align: right;
+    width: 80%;
+  }
+  .menu-mobile i {
+    cursor: pointer;
+    font-size: 23px;
+    margin-top: 8px;
+  }
+  .conteudo-sobre p {
+    width: 100%;
+    margin: 20px 20px;
+  }
 }
 
 /* parei no minuto 54:51 */

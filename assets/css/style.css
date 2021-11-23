@@ -76,8 +76,6 @@ section.main{
     color: #124265;
     font-size: 14px;
     text-decoration: none;
-    margin-right: 20px;
-    /* margim right para os links nao ficarem grudados */
     transition: 0.8s;
 }
 .main-cta button:hover{
